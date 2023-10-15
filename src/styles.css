@@ -1,0 +1,19 @@
+body {
+  background: #111111;
+}
+.App {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+
+  flex-direction: column;
+  height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+
+input {
+  outline: none;
+}

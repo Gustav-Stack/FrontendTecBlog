@@ -1,0 +1,38 @@
+/* Estilo do rodapé */
+.footer {
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+}
+.icon {
+  color: #fff;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Estilo para os ícones */
+.social-links a:hover {
+  color: #007bff; /* Cor de destaque ao passar o mouse */
+}
+
+.footer-text {
+  margin-top: 20px;
+  font-size: 14px;
+}

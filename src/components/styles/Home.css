@@ -1,0 +1,101 @@
+h1,
+h2,
+h3 {
+  color: #faf0e6;
+  text-align: left;
+}
+
+.home {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.div-search {
+  display: flex;
+  align-items: center;
+  width: 70vw;
+  justify-content: center;
+}
+.search {
+  border: none;
+  width: 80%;
+  height: 30px;
+  padding: 10px;
+
+  background: #ffffff;
+}
+.search-icon {
+  width: 7%;
+  padding: 5px;
+  height: 20px;
+  background: #ffffff;
+}
+.post {
+  display: flex;
+  text-align: left;
+  width: 85%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.single-post {
+  display: flex;
+  text-align: left;
+  width: 85%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-message {
+  display: flex;
+}
+.message,
+.date {
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  margin: 10px;
+  color: #9b9a99;
+}
+.message {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 300px;
+  text-overflow: ellipsis;
+  align-items: center;
+}
+.open-message {
+  width: 100%;
+
+  color: #9b9a99;
+}
+
+/* Adicione estilos para as tags */
+.tags {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag {
+  background-color: #007acc;
+  color: #fff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  .post {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+}

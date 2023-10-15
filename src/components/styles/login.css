@@ -1,0 +1,60 @@
+/* Tema escuro */
+.dark-theme {
+  background-color: #222;
+  color: #fff;
+  margin: 80px;
+}
+
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 92%;
+  padding: 10px;
+  border: 1px solid #444;
+  background-color: #333;
+  color: #fff;
+}
+
+.error-message {
+  color: #ff0000;
+  margin-top: 10px;
+}
+
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}
+
+.register-link {
+  text-align: center;
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
